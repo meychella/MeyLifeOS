@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MeyLife OS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav class="navbar">
+
+    <div class="logo">
+        🌸 MeyLife OS
+    </div>
+
+    <div class="nav-icons">
+        <div id="overlay" class="overlay"></div>
+
+        <button id="settingBtn">⚙️</button>
+
+    </div>
+
+</nav>
+<div id="settings" class="settings">
+
+<div class="setting-header">
+
+<h2>⚙ Settings</h2>
+
+</div>
+
+    <button id="editNameBtn">
+    ✏️ Edit Name
+</button>
+
+    <button>Edit Income</button>
+
+    <button>Edit Semester</button>
+
+    <button id="darkModeBtn">🌙 Dark Mode</button>
+
+    <button id="resetButton">
+        🔄 Reset Data
+    </button>
+
+</div>
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <h2>🌸 MeyLife OS</h2>
+
+        <ul>
+
+            <li>🏠 Dashboard</li>
+            <li>💰 Finance</li>
+            <li>🎓 Academic</li>
+            <li>💪 Health</li>
+            <li>📚 Reading</li>
+            <li>🛍 Wishlist</li>
+            <li>📊 Analytics</li>
+
+        </ul>
+
+    </aside>
+
+    <main class="content">
+
+        <header>
+
+            <h1 id="greeting"></h1>
+
+            <p id="today"></p>
+
+        </header>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2 class="money">💰 Money</h2>
+                <h3 id="moneyDisplay">Rp1.200.000</h3>
+                <p>Monthly Income</p>
+                <button id="addMoney">
+                + Tambah Income
+                </button>
+            </div>
+
+            <div class="card">
+                <h2 class="study">🎓 Academic</h2>
+                <h3>Semester 1</h3>
+                <div class="progress">
+                <div class="progress-bar"></div>
+                </div>
+                <p>Progress 12%</p>
+            </div>
+
+            <div class="card">
+                <h2 class="health">💪 Health</h2>
+                <h3>Gym 0x</h3>
+                <p>Swimming 0x</p>
+            </div>
+
+            <div class="card">
+                <h2 class="wishlist">🛍 Wishlist</h2>
+                <h3>0 / 15</h3>
+                <p>Items Purchased</p>
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
